@@ -1,0 +1,2 @@
+BLC = "countries/Black_Pieces.txt"
+WHT = "countries/White_Pieces.txt"

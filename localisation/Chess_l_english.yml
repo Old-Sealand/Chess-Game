@@ -1,0 +1,20 @@
+﻿l_english:
+ # Countries:
+  BLC:0 "Black"
+  BLC_ADJ:0 "Black"
+  BLC_ideas:0 "Black Ideas"
+  BLC_ideas_start:0 "Black Traditions"
+  BLC_ideas_bonus:0 "Black Ambition"
+  WHT:0 "White"
+  WHT_ADJ:0 "White"
+  WHT_ideas:0 "White Ideas"
+  WHT_ideas_start:0 "White Traditions"
+  WHT_ideas_bonus:0 "White Ambition"
+ # Map:
+  chess_board:0 "ChessBoard"
+  chessboard_area:0 "ChessBoard Area"
+  chessboardsea_area:0 "ChessBoard Sea Area"
+  chessboard_region:0 "ChessBoard Region"
+  chessboardsea_region:0 "ChessBoard Sea Region"
+  chessboard_superregion:0 "ChessBoard Superregion"
+  chessboardsea_superregion:0 "ChessBoard Sea Superregion"

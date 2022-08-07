@@ -1,0 +1,13 @@
+owner = WHT
+controller = WHT
+add_core = WHT
+culture = estonian
+religion = catholic
+base_tax = 1
+base_production = 1
+trade_goods = salt
+base_manpower = 1
+capital	= "c1"
+is_city = yes
+hre = no
+discovered_by = western
