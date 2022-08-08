@@ -1,4 +1,13 @@
 ﻿l_english:
+# Bookmark:
+ RISE_OF_THE_OTTOMANS:0 "Chess Game"
+ RISE_OF_THE_OTTOMANS_DESC:0 "Work in progress..."
+# Trade Node/Company:
+ english_channel:0 "ChessBoard"
+ trade_company_english_channel:0 "ChessBoard Charter"
+ TRADE_COMPANY_ENGLISH_CHANNEL_Root_Culture_GetName:0 "[Root.Culture.GetName] ChessBoard Company"
+ TRADE_COMPANY_ENGLISH_CHANNEL_European_Trade_Company:0 "ChessBoard Trade Company"
+# Provinces:
  PROV1:0 "a1"
  PROV2:0 "b1"
  PROV3:1 "c1"
@@ -65,3 +74,7 @@
  PROV64:0 "h8"
  PROV65:0 ""
  PROV66:0 ""
+ PROV67:0 "Strait"
+ PROV68:0 "Strait"
+ PROV69:0 "White"
+ PROV70:0 "Black"

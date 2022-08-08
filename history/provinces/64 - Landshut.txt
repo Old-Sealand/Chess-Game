@@ -1,6 +1,3 @@
-owner = BLC
-controller = BLC
-add_core = BLC
 culture = estonian
 religion = catholic
 base_tax = 1

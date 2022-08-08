@@ -7,7 +7,8 @@ bookmark =
 	center = 65
 	default = yes
 	
-	country = SWE
-	
-	easy_country = SWE
+	country = WHT
+	country = BLC
+	easy_country = WHT
+	easy_country = BLC
 }

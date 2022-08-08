@@ -1,0 +1,133 @@
+### WHITE ###
+white_king_1 = {
+	
+	picture = white_king
+}
+white_queen_1 = {
+	
+	picture = white_queen
+}
+white_rook_1 = {
+	
+	picture = white_rook
+}
+white_rook_2 = {
+	
+	picture = white_rook
+}
+white_bishop_1 = {
+	
+	picture = white_bishop
+}
+white_bishop_2 = {
+	
+	picture = white_bishop
+}
+white_knight_1 = {
+	
+	picture = white_knight
+}
+white_knight_2 = {
+	
+	picture = white_knight
+}
+#
+white_pawn_1 = {
+	
+	picture = white_pawn
+}
+white_pawn_2 = {
+	
+	picture = white_pawn
+}
+white_pawn_3 = {
+	
+	picture = white_pawn
+}
+white_pawn_4 = {
+	
+	picture = white_pawn
+}
+white_pawn_5 = {
+	
+	picture = white_pawn
+}
+white_pawn_6 = {
+	
+	picture = white_pawn
+}
+white_pawn_7 = {
+	
+	picture = white_pawn
+}
+white_pawn_8 = {
+	
+	picture = white_pawn
+}
+#############
+### BLACK ###
+black_king_1 = {
+	
+	picture = black_king
+}
+black_queen_1 = {
+	
+	picture = black_queen
+}
+black_rook_1 = {
+	
+	picture = black_rook
+}
+black_rook_2 = {
+	
+	picture = black_rook
+}
+black_bishop_1 = {
+	
+	picture = black_bishop
+}
+black_bishop_2 = {
+	
+	picture = black_bishop
+}
+black_knight_1 = {
+	
+	picture = black_knight
+}
+black_knight_2 = {
+	
+	picture = black_knight
+}
+#
+black_pawn_1 = {
+	
+	picture = black_pawn
+}
+black_pawn_2 = {
+	
+	picture = black_pawn
+}
+black_pawn_3 = {
+	
+	picture = black_pawn
+}
+black_pawn_4 = {
+	
+	picture = black_pawn
+}
+black_pawn_5 = {
+	
+	picture = black_pawn
+}
+black_pawn_6 = {
+	
+	picture = black_pawn
+}
+black_pawn_7 = {
+	
+	picture = black_pawn
+}
+black_pawn_8 = {
+	
+	picture = black_pawn
+}

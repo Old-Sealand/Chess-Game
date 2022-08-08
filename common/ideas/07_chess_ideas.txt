@@ -1,0 +1,45 @@
+chess_ideas = {
+	start = {
+		development_cost = -33.337
+		global_regiment_cost = 3373.37
+		global_manpower = -3373.37
+		manpower_recovery_speed = -3373.37
+		build_cost = 3373.37
+		technology_cost = 3373.37
+		idea_cost = 3373.37
+	}
+	
+	bonus = {
+		all_power_cost = 33.337
+	}	
+
+	trigger = {
+		OR = {
+			tag = BLC
+			tag = WHT
+		}
+	}
+	free = yes
+	
+	chess_ideas_1 = {
+		all_power_cost = 33.337
+	}
+	chess_ideas_2 = {
+		all_power_cost = 33.337
+	}
+	chess_ideas_3 = {
+		all_power_cost = 33.337
+	}
+	chess_ideas_4 = {
+		all_power_cost = 33.337
+	}
+	chess_ideas_5 = {
+		all_power_cost = 33.337
+	}
+	chess_ideas_6 = {
+		all_power_cost = 33.337
+	}
+	chess_ideas_7 = {
+		all_power_cost = 33.337
+	}
+}

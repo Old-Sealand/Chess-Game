@@ -1,6 +1,3 @@
-owner = WHT
-controller = WHT
-add_core = WHT
 culture = estonian
 religion = catholic
 base_tax = 1

@@ -1,0 +1,62 @@
+namespace = chess_events
+
+# Starting:
+country_event = {
+	id = chess_events.1
+	title = chess_events.1.t
+	desc = chess_events.1.d
+	picture = FETISHIST_FIRE_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		if = {
+			limit = { BLC = { ai = yes } }
+			tag = WHT
+		}
+		else_if = {
+			limit = { WHT = { ai = yes } }
+			tag = BLC
+		}
+		else = { tag = WHT }
+	}
+	immediate = {
+		hidden_effect = {
+			BLC = {
+				capital_scope = {
+					kill_units = { who = owner }
+				}
+				while = {
+					limit = { NOT = { treasury = 33 } }
+					add_treasury = 777
+				}
+				while = {
+					limit = { treasury = 33 }
+					add_treasury = -7
+				}
+			}
+			WHT = {
+				capital_scope = {
+					kill_units = { who = owner }
+				}
+				while = {
+					limit = { NOT = { treasury = 33 } }
+					add_treasury = 777
+				}
+				while = {
+					limit = { treasury = 33 }
+					add_treasury = -7
+				}
+			}
+		}
+	}
+	option = {
+		name = chess_events.1.a
+		hidden_effect = {
+			chess_board = {
+				add_core = ROOT
+				cede_province = ROOT
+			}
+			set_white_starting_position = yes
+			set_black_starting_position = yes
+		}
+	}
+}

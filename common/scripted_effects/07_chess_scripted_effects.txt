@@ -1,0 +1,218 @@
+set_white_starting_position = {
+	1 = {
+		add_province_modifier = {
+			name = white_rook_1
+			duration = -1
+		}
+	}
+	2 = {
+		add_province_modifier = {
+			name = white_knight_1
+			duration = -1
+		}
+	}
+	3 = {
+		add_province_modifier = {
+			name = white_bishop_1
+			duration = -1
+		}
+	}
+	4 = {
+		add_province_modifier = {
+			name = white_queen_1
+			duration = -1
+		}
+	}
+	5 = {
+		add_province_modifier = {
+			name = white_king_1
+			duration = -1
+		}
+	}
+	6 = {
+		add_province_modifier = {
+			name = white_bishop_1
+			duration = -1
+		}
+	}
+	7 = {
+		add_province_modifier = {
+			name = white_knight_2
+			duration = -1
+		}
+	}
+	8 = {
+		add_province_modifier = {
+			name = white_rook_2
+			duration = -1
+		}
+	}
+	9 = {
+		add_province_modifier = {
+			name = white_pawn_1
+			duration = -1
+		}
+	}
+	10 = {
+		add_province_modifier = {
+			name = white_pawn_2
+			duration = -1
+		}
+	}
+	11 = {
+		add_province_modifier = {
+			name = white_pawn_3
+			duration = -1
+		}
+	}
+	12 = {
+		add_province_modifier = {
+			name = white_pawn_4
+			duration = -1
+		}
+	}
+	13 = {
+		add_province_modifier = {
+			name = white_pawn_5
+			duration = -1
+		}
+	}
+	14 = {
+		add_province_modifier = {
+			name = white_pawn_6
+			duration = -1
+		}
+	}
+	15 = {
+		add_province_modifier = {
+			name = white_pawn_7
+			duration = -1
+		}
+	}
+	16 = {
+		add_province_modifier = {
+			name = white_pawn_8
+			duration = -1
+		}
+	}
+}
+set_black_starting_position = {
+	57 = {
+		add_province_modifier = {
+			name = black_rook_1
+			duration = -1
+		}
+	}
+	58 = {
+		add_province_modifier = {
+			name = black_knight_1
+			duration = -1
+		}
+	}
+	59 = {
+		add_province_modifier = {
+			name = black_bishop_1
+			duration = -1
+		}
+	}
+	60 = {
+		add_province_modifier = {
+			name = black_queen_1
+			duration = -1
+		}
+	}
+	61 = {
+		add_province_modifier = {
+			name = black_king_1
+			duration = -1
+		}
+	}
+	62 = {
+		add_province_modifier = {
+			name = black_bishop_1
+			duration = -1
+		}
+	}
+	63 = {
+		add_province_modifier = {
+			name = black_knight_2
+			duration = -1
+		}
+	}
+	64 = {
+		add_province_modifier = {
+			name = black_rook_2
+			duration = -1
+		}
+	}
+	49 = {
+		add_province_modifier = {
+			name = black_pawn_1
+			duration = -1
+		}
+	}
+	50 = {
+		add_province_modifier = {
+			name = black_pawn_2
+			duration = -1
+		}
+	}
+	51 = {
+		add_province_modifier = {
+			name = black_pawn_3
+			duration = -1
+		}
+	}
+	52 = {
+		add_province_modifier = {
+			name = black_pawn_4
+			duration = -1
+		}
+	}
+	53 = {
+		add_province_modifier = {
+			name = black_pawn_5
+			duration = -1
+		}
+	}
+	54 = {
+		add_province_modifier = {
+			name = black_pawn_6
+			duration = -1
+		}
+	}
+	55 = {
+		add_province_modifier = {
+			name = black_pawn_7
+			duration = -1
+		}
+	}
+	56 = {
+		add_province_modifier = {
+			name = black_pawn_8
+			duration = -1
+		}
+	}
+}
+#
+chess_adm_select = {
+	if = {
+		limit = { area = chessboard_area }
+		owner = { add_adm_power = 5 }
+		add_base_tax = -1
+	}
+}
+chess_dip_select = {
+	if = {
+		limit = { area = chessboard_area }
+		owner = { add_adm_power = 5 }
+		add_base_tax = -1
+	}
+}
+chess_mil_select = {
+	if = {
+		limit = { area = chessboard_area }
+		owner = { add_mil_power = 5 }
+		add_base_manpower = -1
+	}
+}
